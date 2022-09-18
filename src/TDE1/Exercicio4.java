@@ -61,9 +61,7 @@ public class Exercicio4 {
             // Ignora o header e vazio
             if (valores[6].equals("weight_kg") || valores[6].equals("")) return;
 
-            // A chave é mercadoria + ano para agrupar por mercadoria primeiro, Ex:
-            // Strawberries 2014: 28664.00
-            // Strawberries 2016: 32644.00
+   
             Text chave = new Text(valores[3] +" "+ valores[1]);
 
             // O valor é o peso + n
